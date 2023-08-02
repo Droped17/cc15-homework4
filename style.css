@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./image/0j-lee-CYqr3bsk-tg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kanit', sans-serif;
+
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 80vw;
+  margin: auto;
+
+}
+
+nav {
+  height: 50px; 
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: transparent;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+  align-items: center;
+  justify-content: center;
+  height: calc(97vh - 50px);
+}
+
+.main-container h1 {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+}
+
+.main-container > h4{
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.progress-con {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  width: 400px;
+  flex-direction: column;
+  /* border: 1px solid red; */
+
+}
+
+.progress-status {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.my-progressbar {
+  box-shadow: 3px 3px 10px black;
+  height: 12px;
+  background-color: white;
+}
+.my-progressbar2 {
+  position: absolute;
+  width: 300px;
+  height: 12px;
+  background-color: aquamarine;
+}
+
+.my-btn {
+  background-color: aquamarine;
+  border: 0px;
+  height: 40px;
+  width: 120px;
+  margin-top: 60px;
+}
+
+.my-btn:hover {
+  background-color: azure;
+}
+
+.logo img {
+  margin-top: 30px;
+  width: 40px;
+  border-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 2px;
+  object-fit: cover;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: gainsboro;
+}
